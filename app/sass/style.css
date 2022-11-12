@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top.svg);
+  background-image: url(https://digitshack.com/codepen/mentor4/bg-pattern-bottom.svg), url(https://digitshack.com/codepen/mentor4/bg-pattern-top.svg);
   background-repeat: no-repeat;
   background-position: left 45vw top 44vh, right 48vw bottom 40vh;
 }
