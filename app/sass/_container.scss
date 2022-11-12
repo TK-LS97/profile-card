@@ -1,0 +1,92 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    height:375px;
+    width:326px;
+    background-color:white;
+    border-radius:10px;
+    
+}
+
+.pattern-card{
+    width:326px;
+    height:142px;
+    border-radius:10px 10px 0 0;
+    z-index:0;
+}
+
+.victor-div{
+    display:flex;;
+    position: relative;
+    height:500px;
+    justify-content:center;
+    align-items: center;
+    bottom:14%;
+
+    
+}
+
+.victor-img{
+    height: 96px;
+    width:96px;
+    border-radius:96px;
+    border:solid 6px white ;
+    z-index:1;
+}
+
+.name{
+    display: flex;
+    justify-content:center;
+    margin-top:-30px;
+    font-size:$size;
+    font-weight:$weight;
+    color:black;
+}
+
+.place{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+
+    &__color{
+        color:$DarkGrayishBlue;
+    }
+}
+
+.age{
+    color:$DarkGrayishBlue;
+    margin-left:10px;
+    font-weight:400;
+}
+
+.border{
+    margin-top:25px;
+}
+
+.footer-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    margin-top:30px;
+    padding:0px;
+}
+
+.followers{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:500px;
+    text-align: center;
+}
+
+.bottom{
+    margin-bottom:3px;
+    font-weight:$weight;
+    font-size:$size;
+    color:black;
+}
+
+
+

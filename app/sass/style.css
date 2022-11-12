@@ -1,0 +1,113 @@
+* {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: hsl(185deg, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(227deg, 10%, 46%);
+  font-size: 13px;
+}
+
+.big-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: left 45vw top 44vh, right 48vw bottom 40vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  width: 326px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pattern-card {
+  width: 326px;
+  height: 142px;
+  border-radius: 10px 10px 0 0;
+  z-index: 0;
+}
+
+.victor-div {
+  display: flex;
+  position: relative;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  bottom: 14%;
+}
+
+.victor-img {
+  height: 96px;
+  width: 96px;
+  border-radius: 96px;
+  border: solid 6px white;
+  z-index: 1;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: black;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.place__color {
+  color: hsl(227deg, 10%, 46%);
+}
+
+.age {
+  color: hsl(227deg, 10%, 46%);
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.border {
+  margin-top: 25px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  text-align: center;
+}
+
+.bottom {
+  margin-bottom: 3px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
