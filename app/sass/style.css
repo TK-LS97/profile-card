@@ -26,6 +26,15 @@ body {
   background-position: left 45vw top 44vh, right 48vw bottom 40vh;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(0deg, 0%, 100%);
+}
+
 .container {
   display: flex;
   flex-direction: column;
